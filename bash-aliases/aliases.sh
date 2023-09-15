@@ -18,7 +18,7 @@ xx-alias-push() {
   cd ~/script-hub
   git add .
   git commit -m "Changes in config $(date)"
-  gi push
+  git push
 }
 
 alias xx-zshrc='nvim ~/.zshrc'
