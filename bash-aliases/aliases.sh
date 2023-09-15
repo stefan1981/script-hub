@@ -14,10 +14,10 @@ xx-cheat() {
 }
 
 # push changes in config
-xx-alias-push() {
+xx-config-push() {
   cd ~/script-hub
   git add .
-  git commit -m "CHanges in config $(date)"
+  git commit -m "Changes in config $(date)"
   git push
   git status
   cd -
