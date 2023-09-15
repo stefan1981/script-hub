@@ -17,7 +17,7 @@ xx-cheat() {
 xx-config-push() {
   cd ~/script-hub
   git add .
-  git commit -m "Changes in config $(date)"
+  git commit -m "Changes in config $(date) - $1"
   git push
   git status
   cd -
