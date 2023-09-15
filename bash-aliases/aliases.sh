@@ -20,13 +20,13 @@ xx-alias-push() {
   git commit -m "CHanges in config $(date)"
   git push
   git status
-  cd -
+  cd -
 }
 
 alias xx-zshrc='nvim ~/.zshrc'
 alias xx-source='source ~/.zshrc'
 alias xx-alias='nvim ~/script-hub/bash-aliases/aliases.sh'
 
-#
+##
 
 
