@@ -22,7 +22,7 @@ xx-alias-push() {
 }
 
 alias xx-zshrc='nvim ~/.zshrc'
-alias xx-zshrc-source='source ~/.zshrc'
+alias xx-source='source ~/.zshrc'
 alias xx-alias='nvim ~/script-hub/bash-aliases/aliases.sh'
 
 
