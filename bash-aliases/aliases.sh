@@ -17,11 +17,10 @@ xx-cheat() {
 xx-alias-push() {
   cd ~/script-hub
   git add .
-  read -p "Commit message [Changes in Config $(date)]: " commit_msg
-  commit_msg=${commit_msg:-Changes in config $(date)}
-  git commit -m "$commit_msg"
+  git commit -m "CHanges in config $(date)"
   git push
   git status
+  cd -
 }
 
 alias xx-zshrc='nvim ~/.zshrc'
