@@ -16,7 +16,7 @@ status () {
 status pods
 status deployments
 status statefulsets
-status replicasets
+#status replicasets
 status cronjob
 status job
 status service
